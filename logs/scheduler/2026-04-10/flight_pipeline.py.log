@@ -1,0 +1,168 @@
+[2026-04-10T07:41:53.017+0000] {processor.py:161} INFO - Started process (PID=268) to work on /opt/airflow/dags/flight_pipeline.py
+[2026-04-10T07:41:53.020+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_pipeline.py for tasks to queue
+[2026-04-10T07:41:53.023+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:41:53.022+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_pipeline.py
+[2026-04-10T07:41:53.085+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:41:53.075+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flight_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flight_pipeline.py", line 5, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2026-04-10T07:41:53.089+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_pipeline.py
+[2026-04-10T07:41:53.142+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_pipeline.py took 0.139 seconds
+[2026-04-10T07:42:23.282+0000] {processor.py:161} INFO - Started process (PID=269) to work on /opt/airflow/dags/flight_pipeline.py
+[2026-04-10T07:42:23.284+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_pipeline.py for tasks to queue
+[2026-04-10T07:42:23.286+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:42:23.285+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_pipeline.py
+[2026-04-10T07:42:23.307+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:42:23.302+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flight_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flight_pipeline.py", line 5, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2026-04-10T07:42:23.309+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_pipeline.py
+[2026-04-10T07:42:23.341+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_pipeline.py took 0.071 seconds
+[2026-04-10T07:42:53.659+0000] {processor.py:161} INFO - Started process (PID=270) to work on /opt/airflow/dags/flight_pipeline.py
+[2026-04-10T07:42:53.662+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_pipeline.py for tasks to queue
+[2026-04-10T07:42:53.664+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:42:53.664+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_pipeline.py
+[2026-04-10T07:42:53.700+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:42:53.694+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flight_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flight_pipeline.py", line 5, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2026-04-10T07:42:53.701+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_pipeline.py
+[2026-04-10T07:42:53.730+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_pipeline.py took 0.083 seconds
+[2026-04-10T07:43:23.855+0000] {processor.py:161} INFO - Started process (PID=271) to work on /opt/airflow/dags/flight_pipeline.py
+[2026-04-10T07:43:23.857+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_pipeline.py for tasks to queue
+[2026-04-10T07:43:23.859+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:43:23.858+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_pipeline.py
+[2026-04-10T07:43:23.880+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:43:23.875+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flight_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flight_pipeline.py", line 5, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2026-04-10T07:43:23.882+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_pipeline.py
+[2026-04-10T07:43:23.917+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_pipeline.py took 0.071 seconds
+[2026-04-10T07:43:54.164+0000] {processor.py:161} INFO - Started process (PID=272) to work on /opt/airflow/dags/flight_pipeline.py
+[2026-04-10T07:43:54.166+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_pipeline.py for tasks to queue
+[2026-04-10T07:43:54.168+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:43:54.168+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_pipeline.py
+[2026-04-10T07:43:54.193+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:43:54.189+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flight_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flight_pipeline.py", line 5, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2026-04-10T07:43:54.197+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_pipeline.py
+[2026-04-10T07:43:54.234+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_pipeline.py took 0.081 seconds
+[2026-04-10T07:44:24.383+0000] {processor.py:161} INFO - Started process (PID=273) to work on /opt/airflow/dags/flight_pipeline.py
+[2026-04-10T07:44:24.385+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_pipeline.py for tasks to queue
+[2026-04-10T07:44:24.387+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:44:24.386+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_pipeline.py
+[2026-04-10T07:44:24.411+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:44:24.406+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flight_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flight_pipeline.py", line 5, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2026-04-10T07:44:24.413+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_pipeline.py
+[2026-04-10T07:44:24.447+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_pipeline.py took 0.073 seconds
+[2026-04-10T07:44:44.684+0000] {processor.py:161} INFO - Started process (PID=274) to work on /opt/airflow/dags/flight_pipeline.py
+[2026-04-10T07:44:44.686+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_pipeline.py for tasks to queue
+[2026-04-10T07:44:44.687+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:44:44.686+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_pipeline.py
+[2026-04-10T07:44:44.752+0000] {processor.py:840} INFO - DAG(s) 'flights_ops_medallion_pipe' retrieved from /opt/airflow/dags/flight_pipeline.py
+[2026-04-10T07:44:44.930+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:44:44.929+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-04-10T07:44:44.959+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:44:44.959+0000] {dag.py:3947} INFO - Setting next_dagrun for flights_ops_medallion_pipe to 2026-04-10 00:00:00+00:00, run_after=2026-04-11 00:00:00+00:00
+[2026-04-10T07:44:44.995+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_pipeline.py took 0.318 seconds
+[2026-04-10T07:44:45.747+0000] {processor.py:161} INFO - Started process (PID=275) to work on /opt/airflow/dags/flight_pipeline.py
+[2026-04-10T07:44:45.748+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_pipeline.py for tasks to queue
+[2026-04-10T07:44:45.750+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:44:45.750+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_pipeline.py
+[2026-04-10T07:44:45.795+0000] {processor.py:840} INFO - DAG(s) 'flights_ops_medallion_pipe' retrieved from /opt/airflow/dags/flight_pipeline.py
+[2026-04-10T07:44:45.816+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:44:45.816+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-04-10T07:44:45.849+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:44:45.849+0000] {dag.py:3947} INFO - Setting next_dagrun for flights_ops_medallion_pipe to 2026-04-10 00:00:00+00:00, run_after=2026-04-11 00:00:00+00:00
+[2026-04-10T07:44:45.882+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_pipeline.py took 0.143 seconds
+[2026-04-10T07:44:46.988+0000] {processor.py:161} INFO - Started process (PID=276) to work on /opt/airflow/dags/flight_pipeline.py
+[2026-04-10T07:44:47.004+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_pipeline.py for tasks to queue
+[2026-04-10T07:44:47.006+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:44:47.005+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_pipeline.py
+[2026-04-10T07:44:47.059+0000] {processor.py:840} INFO - DAG(s) 'flights_ops_medallion_pipe' retrieved from /opt/airflow/dags/flight_pipeline.py
+[2026-04-10T07:44:47.080+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:44:47.080+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-04-10T07:44:47.121+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:44:47.121+0000] {dag.py:3947} INFO - Setting next_dagrun for flights_ops_medallion_pipe to 2026-04-10 00:00:00+00:00, run_after=2026-04-11 00:00:00+00:00
+[2026-04-10T07:44:47.158+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_pipeline.py took 0.193 seconds
+[2026-04-10T07:44:52.032+0000] {processor.py:161} INFO - Started process (PID=277) to work on /opt/airflow/dags/flight_pipeline.py
+[2026-04-10T07:44:52.034+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_pipeline.py for tasks to queue
+[2026-04-10T07:44:52.036+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:44:52.035+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_pipeline.py
+[2026-04-10T07:44:52.090+0000] {processor.py:840} INFO - DAG(s) 'flights_ops_medallion_pipe' retrieved from /opt/airflow/dags/flight_pipeline.py
+[2026-04-10T07:44:52.114+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:44:52.113+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-04-10T07:44:52.148+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:44:52.147+0000] {dag.py:3947} INFO - Setting next_dagrun for flights_ops_medallion_pipe to 2026-04-10 00:00:00+00:00, run_after=2026-04-11 00:00:00+00:00
+[2026-04-10T07:44:52.182+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_pipeline.py took 0.160 seconds
+[2026-04-10T07:45:03.381+0000] {processor.py:161} INFO - Started process (PID=278) to work on /opt/airflow/dags/flight_pipeline.py
+[2026-04-10T07:45:03.383+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_pipeline.py for tasks to queue
+[2026-04-10T07:45:03.384+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:45:03.384+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_pipeline.py
+[2026-04-10T07:45:03.427+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:45:03.419+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flight_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flight_pipeline.py", line 5, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2026-04-10T07:45:03.428+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_pipeline.py
+[2026-04-10T07:45:03.466+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_pipeline.py took 0.098 seconds
+[2026-04-10T07:45:04.417+0000] {processor.py:161} INFO - Started process (PID=279) to work on /opt/airflow/dags/flight_pipeline.py
+[2026-04-10T07:45:04.418+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_pipeline.py for tasks to queue
+[2026-04-10T07:45:04.420+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:45:04.420+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_pipeline.py
+[2026-04-10T07:45:04.441+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:45:04.436+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flight_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flight_pipeline.py", line 5, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2026-04-10T07:45:04.443+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_pipeline.py
+[2026-04-10T07:45:04.474+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_pipeline.py took 0.065 seconds
+[2026-04-10T07:45:05.458+0000] {processor.py:161} INFO - Started process (PID=280) to work on /opt/airflow/dags/flight_pipeline.py
+[2026-04-10T07:45:05.459+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_pipeline.py for tasks to queue
+[2026-04-10T07:45:05.461+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:45:05.460+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_pipeline.py
+[2026-04-10T07:45:05.504+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:45:05.496+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flight_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flight_pipeline.py", line 5, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2026-04-10T07:45:05.507+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_pipeline.py
+[2026-04-10T07:45:05.538+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_pipeline.py took 0.089 seconds
+[2026-04-10T07:45:06.564+0000] {processor.py:161} INFO - Started process (PID=281) to work on /opt/airflow/dags/flight_pipeline.py
+[2026-04-10T07:45:06.565+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/flight_pipeline.py for tasks to queue
+[2026-04-10T07:45:06.566+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:45:06.566+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/flight_pipeline.py
+[2026-04-10T07:45:06.591+0000] {logging_mixin.py:188} INFO - [2026-04-10T07:45:06.584+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/flight_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/flight_pipeline.py", line 5, in <module>
+    from airflow.providers.standard.operators.python import PythonOperator
+ModuleNotFoundError: No module named 'airflow.providers.standard'
+[2026-04-10T07:45:06.592+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/flight_pipeline.py
+[2026-04-10T07:45:06.623+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/flight_pipeline.py took 0.067 seconds
